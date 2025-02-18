@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<style>
+    @font-face {
+        font-family: 'caviar';
+        src: url('fonts/CaviarDreams.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+
+        font-family: 'caviar';
+        background-color: #FEF7E5;
+
+    }
+
+    div {
+       
+    }
+
+    .barSuperior {
+        justify-content: left;
+        margin-left: 40px;
+        font-size: 150%;
+        font-family: 'caviar';
+        text-decoration: none;
+        color: #402D22;
+       
+
+
+        & p {
+            padding-top: 20px;
+        }
+    }
+
+    .barInferior{
+        text-align: center;
+        justify-content: center;
+        margin-top: 120px;
+        font-size: 120%;
+        
+    }
+
+    .cadastro{
+        padding-top: 10px;
+        font-size: 10%;
+        color: #402D22;
+    }
+
+    a:hover {
+        color: #735646;
+    }
+</style>
+
+<body>
+        <div class="barSuperior">
+            <a href="./home.html" class="voltar"><p><strong>Voltar</strong></p></a>
+        </div>
+        <div class="barInferior">
+            <h1>Login</h1>
+            <h2>Preencha o formulário: </h2>
+
+            <form>
+                Email:
+                <input type="text" name="texto" placeholder="Digite seu email"><br>
+                <br>
+                Senha:
+                <input type="password" name="secreto" placeholder="Digite sua senha"><br>
+                <a href="./formscad.html" class="cadastro">Ainda não tem uma conta?</a>
+            </form>
+        </div>
+</body>
+
+</html>
